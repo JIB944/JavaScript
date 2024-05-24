@@ -84,3 +84,18 @@ Listado de ejercicios:
  error y retorna el número convertido a entero (redondeado).
  e. Convertir la validación del ejercicio 6d) en una función separada y llamarla
  dentro de la función suma probando que todo siga funcionando igual.
+
+How to create a new repository con the command line.
+ 
+echo "# JavaScript" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JIB944/JavaScript.git
+git push -u origin main
+
+or push an existing repository from the command line
+git remote add origin https://github.com/JIB944/JavaScript.git
+git branch -M main
+git push -u origin main
