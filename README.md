@@ -95,7 +95,7 @@ How to create a new repository con the command line.
         git remote add origin https://github.com/JIB944/JavaScript.git
         git push -u origin main
 
-or push an existing repository from the command line
+or push an existing repository from the command line.
         git remote add origin https://github.com/JIB944/JavaScript.git
         git branch -M main
         git push -u origin main
