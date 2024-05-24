@@ -33,15 +33,10 @@ Listado de ejercicios:
          en blanco. 
         Encontrar la posición del primer espacio en blanco y guardarla en una variable
          (utilizar indexOf).
-        f.
+        f. Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio). Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra de ambas palabras en mayúscula
+        y las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +).
 
  3. Arrays
- 
-        Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y 
-        algún espacio entre medio). Utilizar los métodos de los ejercicios anteriores para
-         generar un nuevo string que tenga la primera letra de ambas palabras en mayúscula
-          y las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, 
-          toLowerCase y el operador +).
         
         a. Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", 
         "Junio","Julio","Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
