@@ -1,30 +1,51 @@
 Listado de ejercicios:
 
  1. Variables y Operadores
-        a. Crear dos variables numéricas y utilizar el operador suma para guardar el valor de la suma de ambos números en una 3er variable.
+        a. Crear dos variables numéricas y utilizar el operador suma para guardar
+         el valor de la suma de ambos números en una 3er variable.
 
-        b. Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.
+        b. Crear dos variables de tipo String y concatenarlas guardando el 
+        resultado en una 3er variable.
 
-        c. Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string) guardando el resultado de la suma en una 3er variable (utilizar length).
+        c. Crear dos variables de tipo String y sumar el largo de cada variable 
+        (cantidad de letras del string) guardando el resultado de la suma en una
+         3er variable (utilizar length).
 
  2. Strings
  
-        a. Crear una variable de tipo string con al menos 10 caracteres y convertir todo el texto en mayúscula (utilizar toUpperCase).
+        a. Crear una variable de tipo string con al menos 10 caracteres y convertir 
+        todo el texto en mayúscula (utilizar toUpperCase).
 
-        b. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring).
+        b. Crear una variable de tipo string con al menos 10 caracteres y generar 
+        un nuevo string con los primeros 5 caracteres guardando el resultado en una
+         nueva variable (utilizar substring).
 
-        c. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring).
+        c. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo 
+        string con los últimos 3 caracteres guardando el resultado en una nueva 
+        variable (utilizar substring).
 
-        d. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con la primera letra en mayúscula y las demás en minúscula. Guardar el resultado en una nueva variable (utilizar substring, toUpperCase, toLowerCase y el operador +).
+        d. Crear una variable de tipo string con al menos 10 caracteres y generar un 
+        nuevo string con la primera letra en mayúscula y las demás en minúscula. 
+        Guardar el resultado en una nueva variable (utilizar substring, toUpperCase,
+         toLowerCase y el operador +).
         
-        e. Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco. Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).
+        e. Crear una variable de tipo string con al menos 10 caracteres y algún espacio
+         en blanco. 
+        Encontrar la posición del primer espacio en blanco y guardarla en una variable
+         (utilizar indexOf).
         f.
 
  3. Arrays
  
-        Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio). Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra de ambas palabras en mayúscula y las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +).
+        Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y 
+        algún espacio entre medio). Utilizar los métodos de los ejercicios anteriores para
+         generar un nuevo string que tenga la primera letra de ambas palabras en mayúscula
+          y las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, 
+          toLowerCase y el operador +).
         
-        a. Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio","Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] mostrar por consola los meses 5 y 11 (utilizar console.log).
+        a. Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", 
+        "Junio","Julio","Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+         mostrar por consola los meses 5 y 11 (utilizar console.log).
         
         b. Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar sort).
         
@@ -37,11 +58,14 @@ Listado de ejercicios:
         f. Unir todos los elementos del array en un único string donde cada mes este
         separado por un guión - (utilizar join).
         
-        g. Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).
+        g. Crear una copia del array de meses que contenga desde Mayo hasta Noviembre 
+        (utilizar slice).
 
 4. If Else
  
-        a. Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(), si el valor es mayor o igual que 0,5 mostrar una alerta con el mensaje “Greater than 0,5” y sino un alerta con el mensaje “Lower than 0,5”.
+        a. Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(), 
+        si el valor es mayor o igual que 0,5 mostrar una alerta con el mensaje “Greater
+         than 0,5” y sino un alerta con el mensaje “Lower than 0,5”.
         
         b. Crear una variable “Age” que contenga un número entero entre 0 y 100 y
         muestre los siguientes mensajes de alerta:
@@ -61,12 +85,15 @@ Listado de ejercicios:
                 vii. “Anciano” si es mayor a 75 años.
         
  5. For
-        a. Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de JavaScript para mostrar una alerta utilizando cada una de las palabras.
+        a. Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle
+         for de JavaScript para mostrar una alerta utilizando cada una de las palabras.
 
         b. Al array anterior convertir la primera letra de cada palabra en mayúscula y
         mostrar una alerta por cada palabra modificada.
 
-        c. Crear una variable llamada “sentence” que tenga un string vacío, luego al array del punto a) recorrerlo con un bucle for para ir guardando cada palabra dentro de la variable sentence. Al final mostrar una única alerta con la cadena completa.
+        c. Crear una variable llamada “sentence” que tenga un string vacío, luego al array
+         del punto a) recorrerlo con un bucle for para ir guardando cada palabra dentro de
+          la variable sentence. Al final mostrar una única alerta con la cadena completa.
 
         d. Crear una array vacío y con un bucle for de 10 repeticiones. Llenar el array con
         el número de la repetición, es decir que al final de la ejecución del bucle for
@@ -75,15 +102,22 @@ Listado de ejercicios:
 
  6. Funciones
         a. Crear una función suma que reciba dos valores numéricos y retorne el resultado.
-        Ejecutar la función y guardar el resultado en una variable, mostrando el valor de dicha variable en la consola del navegador.
+        Ejecutar la función y guardar el resultado en una variable, mostrando el valor de 
+        dicha variable en la consola del navegador.
 
-        b. A la función suma anterior, agregarle una validación para controlar si alguno de los parámetros no es un número, mostrar una alerta aclarando que uno de los parámetros tiene error y retornar el valor NaN como resultado.
+        b. A la función suma anterior, agregarle una validación para controlar si alguno 
+        de los parámetros no es un número, mostrar una alerta aclarando que uno de los 
+        parámetros tiene error y retornar el valor NaN como resultado.
 
-        c. Crear una función validate integer que reciba un número como parámetro y devuelva verdadero si es un número entero.
+        c. Crear una función validate integer que reciba un número como parámetro y 
+        devuelva verdadero si es un número entero.
 
-        d. A la función suma del ejercicio 6b) agregarle una llamada que valide que los números sean enteros. En caso que haya decimales mostrar un alerta con el error y retorna el número convertido a entero (redondeado).
+        d. A la función suma del ejercicio 6b) agregarle una llamada que valide que los 
+        números sean enteros. En caso que haya decimales mostrar un alerta con el error 
+        y retorna el número convertido a entero (redondeado).
 
-        e. Convertir la validación del ejercicio 6d) en una función separada y llamarla dentro de la función suma probando que todo siga funcionando igual.
+        e. Convertir la validación del ejercicio 6d) en una función separada y llamarla
+         dentro de la función suma probando que todo siga funcionando igual.
 
 How to create a new repository con the command line.
  
