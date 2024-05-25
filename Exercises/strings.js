@@ -25,36 +25,35 @@
          en mayúscula y las demás letras en minúscula (utilizar indexOf, substring, 
          toUpperCase, toLowerCase y el operador +). */
 
-/*a. 
+/*a. */
 
   var x = "electrodoméstico";
   console.log(x.toUpperCase()) //ELECTRODOMÉSTICO
 
-*/
-/*b.
+/*b.*/
 var y = "supermercado";
 var z = y.substring(0,5);   //toma de la posición 0 a la 5 sin incluír esta última.
-console.log(z); */
+console.log(z); 
 
-/*c. 
+/*c. */
 var w = "supermercado";
 var z = w.substring(9);         //toma los caracteres sigtes a l a9 posición.
-console.log(z); */
+console.log(z);
 
-/*d. 
+/*d. */
 
 var primeraLetra = "parafrasear";
 var primeraLetraMayus = (primeraLetra.substring(0,1).toUpperCase() + primeraLetra.substring(1.10).toLowerCase());
-console.log(primeraLetraMayus); */
+console.log(primeraLetraMayus); 
 
-/* e.
+/* e. */
 var espacio = "locom tora";
 var espacioEnBlanco = espacio.indexOf(" "); //devuelve la posición del primer espacio en blanco.
-console.log(espacioEnBlanco); //devuelve la posición del primer espacio en blanco.*/
+console.log(espacioEnBlanco); //devuelve la posición del primer espacio en blanco.
 
-/* f. 
+/* f. */
 
 var palabra1 = "electronicamente hablando";
 var mayusMinus = palabra1.substring(0,1).toUpperCase()+palabra1.substring(1,16).toLocaleLowerCase() + palabra1.substring(16,18).toUpperCase()+palabra1.substring(18,25).toLocaleLowerCase();
 
-console.log(mayusMinus); */
+console.log(mayusMinus); 
