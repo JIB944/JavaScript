@@ -25,16 +25,16 @@ var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo",
 
 console.log(meses[4]);
 console.log(meses[10]);
-/*
+
 // b.
 
 var mesesOrdenados = meses.sort();
 console.log(mesesOrdenados);
-// c.
- 
 
-meses.unshift("Comienzo");
-meses.push("Fin");
+// c.  
+  
+meses.unshift("Comienzo");  //Agregar un elemento al principio 
+meses.push("Fin");          //Agregar un elemento al final 
 console.log(meses);
 
 // d. 
@@ -43,7 +43,7 @@ meses.shift(); // Quita el primer elemento
 meses.pop();   // Quita el último elemento
 console.log(meses);
 
-// e. 
+// e.  Invertir el orden del array
 meses.reverse();
 console.log(meses);
 
@@ -51,7 +51,7 @@ console.log(meses);
 
 var mesesUnidos = meses.join(" - ");
 console.log(mesesUnidos);
-*/
+
 
 // g. 
 
