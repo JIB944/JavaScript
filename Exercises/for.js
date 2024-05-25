@@ -13,3 +13,6 @@
         debería haber 10 elementos dentro del array, desde el número 0 hasta al número
         9. Mostrar por la consola del navegador el array final (utilizar console.log).
 */
+
+//a.
+
