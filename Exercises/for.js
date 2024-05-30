@@ -1,4 +1,4 @@
-/*  a. Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle
+/*  5)  a. Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle
          for de JavaScript para mostrar una alerta utilizando cada una de las palabras.
 
         b. Al array anterior convertir la primera letra de cada palabra en mayúscula y
@@ -16,3 +16,8 @@
 
 //a.
 
+var palabras = ["ford", "chevrolet", "fiat", "porche", "ferrari"];
+
+for (let i = 0; i < palabras.length; i++) {
+    alert(palabras[i]);
+}
