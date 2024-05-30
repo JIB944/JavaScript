@@ -23,3 +23,16 @@ for (var i = 0; i < words.length; i++) {
 }
 //b.
 
+for (var i = 0; i < words.length; i++) {
+
+  var palabraModificada = words[i].charAt(0).toUpperCase() + words[i].slice(1);
+
+  alert(palabraModificada);
+}
+//c. 
+var sentence = "";
+
+for (var i = 0; i < words.length; i++) {
+
+    sentence += words[i] + " ";
+}
