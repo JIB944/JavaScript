@@ -30,9 +30,21 @@ for (var i = 0; i < words.length; i++) {
   alert(palabraModificada);
 }
 //c. 
+var words = ["ford", "chevrolet", "fiat", "porche", "ferrari"];
+
 var sentence = "";
 
 for (var i = 0; i < words.length; i++) {
 
     sentence += words[i] + " ";
 }
+alert(sentence.trim());
+
+//d.
+var numeros = [];
+
+for (var i = 0; i < 10; i++) {
+    numeros.push(i);
+}
+
+console.log(numeros);
