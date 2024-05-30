@@ -22,7 +22,7 @@
 
 //a.
 
-let numeroAleatorio = Math.random();
+var numeroAleatorio = Math.random();
 
 if (numeroAleatorio >= 0.5) {
     alert("Es más grande que 0.5");
@@ -31,7 +31,7 @@ if (numeroAleatorio >= 0.5) {
 }
 
 //b.
-let Age = Math.floor(Math.random() * 101);
+var Age = Math.floor(Math.random() * 101);
 
 if (Age < 2) {
         alert("Bebe");

@@ -55,5 +55,5 @@ console.log(mesesUnidos);
 
 // g. 
 
-let copiaMeses = meses.slice(4, 11); // Mayo es índice 4 y (Noviembre) índice 10 
+var copiaMeses = meses.slice(4, 11); // Mayo es índice 4 y (Noviembre) índice 10 
 console.log(copiaMeses);

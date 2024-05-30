@@ -16,8 +16,10 @@
 
 //a.
 
-var palabras = ["ford", "chevrolet", "fiat", "porche", "ferrari"];
+var words = ["ford", "chevrolet", "fiat", "porche", "ferrari"];
 
-for (let i = 0; i < palabras.length; i++) {
-    alert(palabras[i]);
+for (var i = 0; i < words.length; i++) {
+    alert(words[i]);
 }
+//b.
+
