@@ -67,7 +67,7 @@ function suma(a, b) {
 
     return a + b;
 }
-var resultado = suma(7, 7,5 );  //resultado 11
+var resultado = suma(7, 7,5 );  //resultado 14
 console.log(resultado);
 
 //e.
